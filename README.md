@@ -3,9 +3,6 @@
 A feature-rich chat application built with PHP and MySQL, enabling instant messaging with real-time updates and user status tracking.
 
 ### Application Preview
-
-<details>
-<summary>View Screenshots</summary>
    
 ### SignUp
 ![SignUp](https://github.com/VinayShetyeOfficial/Real-Time-ChatApp-PHP/assets/100470361/e19a8e44-4b23-4d3b-9c99-4cb527085435)
@@ -26,8 +23,6 @@ A feature-rich chat application built with PHP and MySQL, enabling instant messa
 ![Search-focus](https://github.com/VinayShetyeOfficial/Real-Time-ChatApp-PHP/assets/100470361/39903374-c2b4-4c2e-a401-9cf2e60eb4fa)
 
 ![Searching](https://github.com/VinayShetyeOfficial/Real-Time-ChatApp-PHP/assets/100470361/831f85d8-2e6b-4996-8115-776353e185b5)
-
-</details>
 
 <br>
 
