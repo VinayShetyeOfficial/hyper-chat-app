@@ -1,0 +1,15 @@
+Database Use: https://app.planetscale.com/vinay-courses-official/welcome
+Account: vinay.courses.official@gmail.com
+Password: Gx!9vB#2mL@qP7sK$WfT
+
+
+Run Project
+-----------
+Powershell
+> php -S 0.0.0.0:8000
+
+Firebase Database: 
+https://console.firebase.google.com/u/3/project/hyperchatapp-d73c6/firestore/databases/-default-/data/~2Fusers
+
+Authentication:
+https://console.firebase.google.com/u/3/project/hyperchatapp-d73c6/authentication/users
