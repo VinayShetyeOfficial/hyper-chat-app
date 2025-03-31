@@ -3,7 +3,7 @@ services:
     name: hyper-chat-app
     env: php
     buildCommand: composer install
-    startCommand: heroku-php-apache2 new-release/
+    startCommand: heroku-php-apache2 .
     envVars:
       - key: FIREBASE_API_KEY
         value: AIzaSyA680lTlCSZlyJltI7Rf_mEQywJqNhrXMo
