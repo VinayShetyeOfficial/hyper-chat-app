@@ -1,146 +1,179 @@
-# 💬 Real-Time Chat Application
+# 💬HyperChat - Real-Time Messaging App
 
-A feature-rich chat application built with PHP and MySQL, enabling instant messaging with real-time updates and user status tracking.
+HyperChat is a messaging application developed using PHP and Firebase, designed to provide real-time communication with features like user presence and secure authentication.
 
-### Application Preview
-   
-### SignUp
-![SignUp](https://github.com/VinayShetyeOfficial/Real-Time-ChatApp-PHP/assets/100470361/e19a8e44-4b23-4d3b-9c99-4cb527085435)
+#### Login Screen
 
-### Login
-![Login](https://github.com/VinayShetyeOfficial/Real-Time-ChatApp-PHP/assets/100470361/0c9bbf9f-76d1-4b0c-874c-6aa6ab6a5962)
+<img src="./new-release/screenshots/login.png" alt="Login" width="600"/>
 
-### Chat User1 Dashboard
-![Incomming-Message2](https://github.com/VinayShetyeOfficial/Real-Time-ChatApp-PHP/assets/100470361/49079817-b166-496e-851f-23d388d865c5)
+#### Signup Screen
 
-### Chat User2 Dashboard
-![Incomming-Message](https://github.com/VinayShetyeOfficial/Real-Time-ChatApp-PHP/assets/100470361/ce65745f-3cad-4aab-925c-74a7556135f5)
+<img src="./new-release/screenshots/signup.png" alt="Signup" width="600"/>
 
-### Chat Thread
-![Conversation](https://github.com/VinayShetyeOfficial/Real-Time-ChatApp-PHP/assets/100470361/521dd2ae-7922-419f-8a20-a1e5a605f2a1)
+#### User Dashboard
 
-## Search User
-![Search-focus](https://github.com/VinayShetyeOfficial/Real-Time-ChatApp-PHP/assets/100470361/39903374-c2b4-4c2e-a401-9cf2e60eb4fa)
+<div>
+<img src="./new-release/screenshots/user-dashboard_1.png" alt="User Dashboard 1" width="600"/>
+<img src="./new-release/screenshots/user-dashboard_2.png" alt="User Dashboard 2" width="600"/>
+<img src="./new-release/screenshots/user-dashboard_3.png" alt="User Dashboard 3" width="600"/>
+</div>
 
-![Searching](https://github.com/VinayShetyeOfficial/Real-Time-ChatApp-PHP/assets/100470361/831f85d8-2e6b-4996-8115-776353e185b5)
+#### Chat Interface
 
-<br>
+<img src="./new-release/screenshots/chat-box.png" alt="Chat Box" width="600"/>
 
-## ✨ Features
+#### User Search
 
-### 🎯 Core Functionality
-
-- 👤 User authentication
-- 💬 Real-time messaging
-- 🔍 User search
-- 🟢 Online status
-- ✓ Read receipts
-
-### 🎨 User Interface
-
-- 📱 Responsive design
-- 🎭 Profile management
-- 🔔 Message notifications
-- 🎨 Clean aesthetics
-- 🔍 Search functionality
+<img src="./new-release/screenshots/filter.png" alt="Filter" width="600"/>
 
 <br>
 
-## 🛠️ Tech Stack
+## Version History
+
+HyperChat has transitioned from a traditional PHP/MySQL setup to a more modern Firebase-based platform.
+
+### Current Firebase Version
+
+- Real-time data storage using Cloud Firestore.
+- User authentication managed by Firebase Authentication.
+- Real-time presence tracking for accurate online status.
+- Updated user interface with custom branding.
+- Progressive Web App (PWA) functionality.
+- Enhanced performance and reliability.
+
+<details>
+<summary><b>Previous Version</b> (Click to expand)</summary>
+
+- MySQL database for data storage.
+- PHP session-based authentication.
+- AJAX polling for message updates.
+- Basic online status tracking.
+- Simple user interface.
+
+#### Legacy Login Screen
+
+<img src="https://github.com/VinayShetyeOfficial/Real-Time-ChatApp-PHP/assets/100470361/0c9bbf9f-76d1-4b0c-874c-6aa6ab6a5962" alt="Legacy Login" width="600"/>
+
+#### Legacy User Dashboard
+
+<img src="https://github.com/VinayShetyeOfficial/Real-Time-ChatApp-PHP/assets/100470361/49079817-b166-496e-851f-23d388d865c5" alt="Legacy User Dashboard" width="600"/>
+
+#### Legacy Chat Interface
+
+<img src="https://github.com/VinayShetyeOfficial/Real-Time-ChatApp-PHP/assets/100470361/521dd2ae-7922-419f-8a20-a1e5a605f2a1" alt="Legacy Conversation" width="600"/>
+
+#### Legacy User Search
+
+<img src="https://github.com/VinayShetyeOfficial/Real-Time-ChatApp-PHP/assets/100470361/831f85d8-2e6b-4996-8115-776353e185b5" alt="Legacy Searching" width="600"/>
+
+</details>
+
+<br>
+
+## Key Features
+
+### Core Functionality
+
+- Firebase Authentication for user management.
+- Real-time messaging using Firestore.
+- User search capabilities.
+- Presence system indicating online/offline status.
+
+### User Interface
+
+- Responsive design.
+- Profile management with avatars.
+- Modern user interface.
+- Enhanced search functionality.
+- Clean design aesthetics.
+
+<br>
+
+## Technology Stack
 
 ### Core Technologies
-- 🐘 PHP
-- 🗄️ MySQL
-- 📝 HTML5
-- 🎨 CSS3
-- 🔧 JavaScript
+
+- PHP (Backend)
+- Firebase:
+  - Authentication
+  - Firestore Database
+  - Cloud Storage
+  - Hosting
+- HTML5 & CSS3
+- JavaScript (ES6+)
+- Progressive Web App features.
 
 <br>
 
-## 🚀 Getting Started
+## Getting Started
 
 ### Prerequisites
 
 - PHP 7.4+
-- MySQL 5.7+
-- Apache/Nginx server
-- Web browser
+- Web server (Apache/Nginx)
+- Modern web browser.
+- Firebase account.
 
 ### Installation
 
 1. Clone the repository:
+
    ```sh
    git clone https://github.com/VinayShetyeOfficial/Real-Time-ChatApp-PHP.git
    ```
-2. Set up database:
-   ```sql
-   CREATE DATABASE chatapp;
-   ```
-3. Import schema:
+
+2. Start your local server:
+
    ```sh
-   mysql -u root -p chatapp < database/schema.sql
-   ```
-4. Configure environment:
-   ```php
-   // config.php
-   define('DB_HOST', 'localhost');
-   define('DB_USER', 'root');
-   define('DB_PASS', '');
-   define('DB_NAME', 'chatapp');
+   php -S 0.0.0.0:8000
    ```
 
-<br>
-
-## 📁 Project Structure
-
-```
-Real-Time-ChatApp-PHP/
-│── index.php
-│── config/
-│   └── database.php
-│── assets/
-│   ├── css/
-│   ├── js/
-│   └── images/
-│── includes/
-│   ├── chat.php
-│   ├── users.php
-│   └── auth.php
-│── database/
-│   └── schema.sql
-└── README.md
-```
+3. Access the application:
+   ```
+   http://localhost:8000
+   ```
 
 <br>
 
 ## 💬 Chat Features
 
 ### Message Management
-- Real-time updates
-- Message history
-- Read receipts
-- Typing indicators
-- File sharing
+
+- Real-time message delivery with Firestore
+- Message history with efficient data loading
+- Read receipts for message tracking
 
 ### User Features
-- Profile customization
-- Online status
-- Last seen
-- User search
-- Block functionality
+
+- Secure authentication with Firebase
+- Accurate online/offline status
+- User search with instant results
+- Profile image storage in Firebase
 
 <br>
 
-## 🛠️ Future Enhancements
+## 🔐 Security Features
 
-Planned features:
+- Firebase Authentication for secure user management
+- Secure data storage with Firestore security rules
+- Protected image uploads
+- Session management
+- Input validation and sanitization
+- XSS protection measures
 
-- Group chats
-- Voice messages
-- Video calls
-- End-to-end encryption
-- Message reactions
-- Custom themes
+<br>
+
+## 🛠️ Possible Future Enhancements
+
+- Group chats with multiple participants
+- Voice messages and audio recording
+- Video calls integration
+- End-to-end encryption for private messages
+- Message reactions with emojis
+- Custom themes and appearance settings
+- Push notifications for new messages
+- Message search functionality
+- Message deletion and editing
 
 <br>
 
@@ -165,13 +198,7 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 
 <br>
 
-> [!NOTE]  
-> This project demonstrates real-time communication implementation using PHP and MySQL.
-
-<br>
-
 ## 📧 Contact
 
 Vinay Shetye - [GitHub](https://github.com/VinayShetyeOfficial) - vinay.shetye.personal@outlook.com <br>
 Project Link: [https://github.com/VinayShetyeOfficial/Real-Time-ChatApp-PHP](https://github.com/VinayShetyeOfficial/Real-Time-ChatApp-PHP)
-
