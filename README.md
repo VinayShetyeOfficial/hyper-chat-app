@@ -119,7 +119,7 @@ HyperChat has transitioned from a traditional PHP/MySQL setup to a more modern F
 1. Clone the repository:
 
    ```sh
-   git clone https://github.com/VinayShetyeOfficial/Real-Time-ChatApp-PHP.git
+   git clone https://github.com/VinayShetyeOfficial/hyper-chat-app.git
    ```
 
 2. Start your local server:
@@ -201,4 +201,4 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 ## 📧 Contact
 
 Vinay Shetye - [GitHub](https://github.com/VinayShetyeOfficial) - vinay.shetye.personal@outlook.com <br>
-Project Link: [https://github.com/VinayShetyeOfficial/Real-Time-ChatApp-PHP](https://github.com/VinayShetyeOfficial/Real-Time-ChatApp-PHP)
+Project Link: [https://github.com/VinayShetyeOfficial/Real-Time-ChatApp-PHP](https://github.com/VinayShetyeOfficial/hyper-chat-app)
