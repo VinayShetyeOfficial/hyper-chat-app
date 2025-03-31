@@ -201,4 +201,4 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 ## 📧 Contact
 
 Vinay Shetye - [GitHub](https://github.com/VinayShetyeOfficial) - vinay.shetye.personal@outlook.com <br>
-Project Link: [https://github.com/VinayShetyeOfficial/Real-Time-ChatApp-PHP](https://github.com/VinayShetyeOfficial/hyper-chat-app)
+Project Link: [https://github.com/VinayShetyeOfficial/hyper-chat-app](https://github.com/VinayShetyeOfficial/hyper-chat-app)
